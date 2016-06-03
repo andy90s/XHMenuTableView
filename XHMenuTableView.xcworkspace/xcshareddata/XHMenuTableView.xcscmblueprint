@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4106809FF489886F69810F8A158A0A27A5F7ECCC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3A45231E51CA9D39FE064FDB2DD52C1576C4FDB4" : 0,
+    "4106809FF489886F69810F8A158A0A27A5F7ECCC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2F847ECD-6E21-4040-8AE7-740261294A2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3A45231E51CA9D39FE064FDB2DD52C1576C4FDB4" : "",
+    "4106809FF489886F69810F8A158A0A27A5F7ECCC" : "XHMenuTableView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XHMenuTableView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XHMenuTableView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andy90s\/XHTableviewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A45231E51CA9D39FE064FDB2DD52C1576C4FDB4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andy90s\/XHMenuTableView-master.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4106809FF489886F69810F8A158A0A27A5F7ECCC"
+    }
+  ]
+}
