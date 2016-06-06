@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0522C358546E5371ECBF7AF4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78575130414318445D0C71FD /* libPods.a */; };
+		7D6A8A761D055C2F009D3614 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A8A751D055C2F009D3614 /* demo.gif */; };
 		7DEB7D9D1CFECDD80042DE69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB7D9C1CFECDD80042DE69 /* main.m */; };
 		7DEB7DA01CFECDD80042DE69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB7D9F1CFECDD80042DE69 /* AppDelegate.m */; };
 		7DEB7DA21CFECDD80042DE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB7DA11CFECDD80042DE69 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		09EBC4DB73F3DF6DC2C91715 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		1AF3CF64F47E3FA9A217866B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		78575130414318445D0C71FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6A8A751D055C2F009D3614 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		7DEB7D981CFECDD80042DE69 /* XHMenuTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHMenuTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEB7D9C1CFECDD80042DE69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DEB7D9E1CFECDD80042DE69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		7DEB7D8F1CFECDD80042DE69 = {
 			isa = PBXGroup;
 			children = (
+				7D6A8A751D055C2F009D3614 /* demo.gif */,
 				7DEB7DCB1CFED44B0042DE69 /* Code */,
 				7DEB7D9A1CFECDD80042DE69 /* XHMenuTableView */,
 				7DEB7DAE1CFECDD80042DE69 /* XHMenuTableViewTests */,
@@ -345,6 +348,7 @@
 			files = (
 				7DEB7DA21CFECDD80042DE69 /* Assets.xcassets in Resources */,
 				7DEB7DE81D015E150042DE69 /* XHHeaderView.xib in Resources */,
+				7D6A8A761D055C2F009D3614 /* demo.gif in Resources */,
 				7DEB7DCD1CFED49D0042DE69 /* MyStoryboard.storyboard in Resources */,
 				7DEB7DA51CFECDD80042DE69 /* LaunchScreen.storyboard in Resources */,
 			);
