@@ -7,4 +7,4 @@
 //如有BUG请联系我Q：909901234  
 
 效果图  
-![image](https://github.com/YourAcountName/ProjectName/blob/master/GIFName.gif ) 
+![image](https://github.com/andy90s/XHMenuTableView/blob/master/demo.gif) 
