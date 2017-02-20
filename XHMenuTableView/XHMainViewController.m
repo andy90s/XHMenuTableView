@@ -59,7 +59,7 @@ static NSString *way = @"normal";
     XHHeaderView *header = [XHHeaderView initHeaderView];
     header.imgView.image = [UIImage imageNamed:@"re0"];
     
-    NSArray *titles = @[@"tab0",@"tab1",@"tab2"];
+    NSArray *titles = @[@"0",@"1",@"2"];
     XHTableView *tab0 = [XHTableView initViewWithContent:@"我是tab0"];
     XHTableView *tab1 = [XHTableView initViewWithContent:@"我是tab1"];
     XHTableView *tab2 = [XHTableView initViewWithContent:@"我是tab2"];
@@ -68,6 +68,7 @@ static NSString *way = @"normal";
     //放大效果 如果不需要下面代码不要就OK
 #if 1
     [header.imgView setContentMode:UIViewContentModeScaleAspectFill];
+    header.imgView.clipsToBounds = YES;
     _mainView.magnifyTopConstraint = header.imageTopConstaint;
 #endif
     

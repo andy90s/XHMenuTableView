@@ -310,6 +310,7 @@
 				TargetAttributes = {
 					7DEB7D971CFECDD80042DE69 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9ZXJ5FY6Q8;
 					};
 					7DEB7DAA1CFECDD80042DE69 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -563,7 +564,9 @@
 			baseConfigurationReference = 09EBC4DB73F3DF6DC2C91715 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZXJ5FY6Q8;
 				INFOPLIST_FILE = XHMenuTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xhliang.XHMenuTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -575,7 +578,9 @@
 			baseConfigurationReference = 1AF3CF64F47E3FA9A217866B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZXJ5FY6Q8;
 				INFOPLIST_FILE = XHMenuTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xhliang.XHMenuTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
