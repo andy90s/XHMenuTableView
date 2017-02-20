@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-XHMenuTableView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2AB49797D14D57FA43A345254AFB9F18</key>
+		<key>6E66B362AE57238557E51E1B585B5C93</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
+		<key>85CE044C485F5A98ABD2FD2F31216B5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C2865C5A27202571006DC3C73A2C656C</key>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
 			<true/>

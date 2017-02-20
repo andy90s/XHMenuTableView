@@ -12,7 +12,7 @@
 #import "ColorUtility.h"
 
 #define CellID @"xhliang"
-#define segTextColor @"2e9ffe"//分段控制器标题颜色 下划线颜色
+#define segTextColor @"888888"//分段控制器标题颜色 下划线颜色
 #define segStripColor @"333333"//未选中颜色
 
 

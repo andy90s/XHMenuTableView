@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1F357114CC84A8B60F10D7EC'
-               BlueprintName = 'Pods'
+               BlueprintIdentifier = '85CE044C485F5A98ABD2FD2F31216B5D'
+               BlueprintName = 'Pods-XHMenuTableView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods.a'>
+               BuildableName = 'libPods-XHMenuTableView.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

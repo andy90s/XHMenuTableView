@@ -59,7 +59,7 @@ static NSString *way = @"normal";
     XHHeaderView *header = [XHHeaderView initHeaderView];
     header.imgView.image = [UIImage imageNamed:@"re0"];
     
-    NSArray *titles = @[@"0",@"1",@"2"];
+    NSArray *titles = @[@"   今天   ",@"当月",@"自定义33333"];
     XHTableView *tab0 = [XHTableView initViewWithContent:@"我是tab0"];
     XHTableView *tab1 = [XHTableView initViewWithContent:@"我是tab1"];
     XHTableView *tab2 = [XHTableView initViewWithContent:@"我是tab2"];
