@@ -50,7 +50,6 @@ static NSString *way = @"normal";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self prepareForUI];
-    [self setMasonry];
 }
 
 -(void)prepareForUI
