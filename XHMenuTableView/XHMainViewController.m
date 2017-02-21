@@ -58,7 +58,7 @@ static NSString *way = @"normal";
 {
     XHHeaderView *header = [XHHeaderView initHeaderView];
     header.imgView.image = [UIImage imageNamed:@"re0"];
-    
+    self.navigationController.navigationBarHidden = YES;
     NSArray *titles = @[@"   今天   ",@"当月",@"自定义33333"];
     XHTableView *tab0 = [XHTableView initViewWithContent:@"我是tab0"];
     XHTableView *tab1 = [XHTableView initViewWithContent:@"我是tab1"];

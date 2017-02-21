@@ -11,6 +11,7 @@
 #import "HMSegmentedControl.h"
 #import "ColorUtility.h"
 
+
 #define CellID @"xhliang"
 #define segTextColor @"888888"//分段控制器标题颜色 下划线颜色
 #define segStripColor @"333333"//未选中颜色
@@ -42,7 +43,6 @@
 
 @property (nonatomic,assign) CGFloat headViewH;
 
-
 @property (nonatomic,assign) BOOL isSwitching;//切换状态
 
 @end
@@ -52,6 +52,8 @@
 static void *HorizontalScrollContext = &HorizontalScrollContext;
 static void *HorizontalPagingViewPanContext = &HorizontalPagingViewPanContext;
 
+#pragma mark -
+#pragma mark - Public
 
 +(XHMenuTabView *)initWithHeadView:(UIView *)headView headheight:(CGFloat)height contentViews:(NSArray *)contentViews titles:(NSArray *)titles frame:(CGRect )frame segmentHeight:(CGFloat )segmentH
 {
@@ -67,6 +69,16 @@ static void *HorizontalPagingViewPanContext = &HorizontalPagingViewPanContext;
     [selfView prepareForSegmentView];//分段
     [selfView prepareForContentViews];//滚动视图
     return selfView;
+}
+
+#pragma mark -
+#pragma mark - Private
+//  移除KVO观察者
+- (void)dealloc {
+    for (UIScrollView *scroll in self.contentViews) {
+        [scroll removeObserver:self forKeyPath:NSStringFromSelector(@selector(contentOffset))];
+        NSLog(@"监听移除");
+    }
 }
 
 #pragma mark -
@@ -163,8 +175,11 @@ static void *HorizontalPagingViewPanContext = &HorizontalPagingViewPanContext;
             [scroll setContentInset:UIEdgeInsetsMake(self.headViewH + self.segmentViewH, 0.f, scroll.contentInset.bottom, 0.f)];
             scroll.showsVerticalScrollIndicator = NO;
             scroll.alwaysBounceVertical = YES;
-            //kvo
+            //添加KVO
+            
             [scroll addObserver:self forKeyPath:NSStringFromSelector(@selector(contentOffset)) options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:&HorizontalScrollContext];
+            
+            
             //[scroll.panGestureRecognizer addObserver:self forKeyPath:NSStringFromSelector(@selector(state)) options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:&HorizontalPagingViewPanContext];
         }
         self.currentContentView = self.contentViews[0];
